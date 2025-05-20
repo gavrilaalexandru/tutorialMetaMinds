@@ -1,1 +1,1 @@
-# tutorialMetaMind
+# tutorialMetaMinds
