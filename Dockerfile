@@ -11,7 +11,7 @@ COPY package.json ./
 RUN npm install
 
 # Copy app files
-COPY server.js
+COPY server.js .
 
 # expose the port our node app will be hosted on
 EXPOSE 8080
