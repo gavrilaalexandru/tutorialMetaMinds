@@ -1,3 +1,7 @@
 acesta este fisierul de pe primul branch
 
 fisier modificat de pe branchul 2
+
+modificare de pe branchul main
+
+rezolvre conflict
