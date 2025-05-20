@@ -2,7 +2,7 @@
 FROM node:16
 
 # Create app directory
-WORKDIR ~/tutorialMetaMind/app
+WORKDIR /usr/src/app
 
 # Get the package.json
 COPY package.json ./
@@ -11,7 +11,7 @@ COPY package.json ./
 RUN npm install
 
 # Copy app files
-COPY . .
+COPY server.js
 
 # expose the port our node app will be hosted on
 EXPOSE 8080
